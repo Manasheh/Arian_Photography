@@ -1,0 +1,39 @@
+.navbar {
+  background-color: black; /* Set background color to black */
+  color: white;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #fff !important;
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+  border-radius: 1px;
+  transition: all 0.3s ease; /* Add smooth transition */
+}
+
+.navbar-brand {
+  color: white !important; /* Set text color to white */
+}
+
+.navbar-toggler-icon {
+  color: white !important; /* Set text color to white */
+}
+
+.navbar-nav .nav-link {
+  color: white !important; /* Set text color to white */
+  transition: all 0.3s ease; /* Add smooth transition */
+}
+
+@media (max-width: 786px) {
+  .navbar-nav .nav-item {
+    width: 100%;
+  }
+  .navbar-nav .nav-item .nav-link {
+    text-align: left;
+    padding-left: 1rem;
+  }
+}

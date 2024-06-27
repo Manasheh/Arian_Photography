@@ -1,0 +1,31 @@
+
+  .videos-component {
+    width: 100%;
+    background-color: black !important;
+    color: white !important;
+    overflow-x: hidden !important;
+    z-index: 100 !important;
+    /* margin-top: 0px !important; */
+    padding-bottom: 1rem;
+
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: calc(100vh - 66px); /* Default height for larger screens */
+    object-fit: cover;
+
+  }
+  .event {
+    width: 50%;
+  }
+  @media (max-width: 768px) {
+    .video-container video {
+      height: auto; /* Adjust height dynamically for smaller screens */
+      /* margin-top: 60px; */
+    }
+    .event {
+      width: 90%;
+    }
+  }
+  
