@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import ArianLogo from '../../public/images/logo/arian.jfif'
 
 function Navbar() {
   const [activeLink, setActiveLink] = useState('Photography');
@@ -19,9 +20,9 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-black">
       <div className="container-fluid px-0">
         <Link className="navbar-brand ps-3 text-white" to="/" onClick={() => handleNavLinkClick('Photography')}>
-          <span>
-            <em>Arian</em>
-          </span>
+          <div className='logo'>
+            <img src={ArianLogo} className='img' alt="" />
+          </div>
         </Link>
         <button
           className="navbar-toggler"
