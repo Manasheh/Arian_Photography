@@ -1,13 +1,12 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Ensure FontAwesome CSS is imported
 import './Card.css';
+import img1 from '../../public/images/dollubollu.jpg';
+import img2 from '../../public/images/monneo.jpg';
+import img3 from '../../public/images/vahcy.jpg';
 
 function TestimonialCarousel() {
-  const images = {
-    img1: '../../public/images/dollubollu.jpg',
-    img2: '../../public/images/monneo.jpg',
-    img3: '../../public/images/vahcy.jpg'
-  };
+ 
 
   return (
     <>
@@ -34,7 +33,7 @@ function TestimonialCarousel() {
                       <div className="col-lg-10 col-xl-8">
                         <div className="row">
                           <div className="col-lg-4 d-flex justify-content-center">
-                            <img src={images.img1} className="rounded-circle shadow-1 mb-2 mb-lg-0" alt="woman avatar" width="100" height="100" />
+                            <img src={img1} className="rounded-circle shadow-1 mb-2 mb-lg-0" alt="woman avatar" width="100" height="100" />
                           </div>
                           <div className="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
                             <h5 className="mb-2">Yosef Haokip</h5>
@@ -52,7 +51,7 @@ function TestimonialCarousel() {
                       <div className="col-lg-10 col-xl-8">
                         <div className="row">
                           <div className="col-lg-4 d-flex justify-content-center">
-                            <img src={images.img2} className="rounded-circle shadow-1 mb-2 mb-lg-0" alt="woman avatar" width="100" height="100" />
+                            <img src={img2} className="rounded-circle shadow-1 mb-2 mb-lg-0" alt="woman avatar" width="100" height="100" />
                           </div>
                           <div className="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
                             <h5 className="mb-2">Monneo Dym's</h5>
@@ -70,7 +69,7 @@ function TestimonialCarousel() {
                       <div className="col-lg-10 col-xl-8">
                         <div className="row">
                           <div className="col-lg-4 d-flex justify-content-center">
-                            <img src={images.img3} className="rounded-circle shadow-1 mb-2 mb-lg-0" alt="woman avatar" width="100" height="100" />
+                            <img src={img3} className="rounded-circle shadow-1 mb-2 mb-lg-0" alt="woman avatar" width="100" height="100" />
                           </div>
                           <div className="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
                             <h5 className="mb-2">Vahcy Lhouvum</h5>
