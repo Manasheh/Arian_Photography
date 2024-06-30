@@ -38,7 +38,7 @@ function Navbar() {
         </button>
         <div className={`collapse navbar-collapse ${isNavbarOpen ? 'show' : ''}`} id="navbarNavDropdown">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item me-3">
+            <li className="nav-item me-2">
               <Link
                 className={`nav-link ${activeLink === 'Home' ? 'active' : ''}`}
                 to="/"
@@ -47,49 +47,49 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className="nav-item me-3">
+            <li className="nav-item me-2">
               <Link
                 className={`nav-link ${activeLink === 'Photography' ? 'active' : ''}`}
                 to="/photography"
                 onClick={() => handleNavLinkClick('Photography')}
               >
-                PHOTOGRAPHY
+                Photography
               </Link>
             </li>
-            <li className="nav-item me-3">
+            <li className="nav-item me-2">
               <Link
                 className={`nav-link ${activeLink === 'Videography' ? 'active' : ''}`}
                 to="/videography"
                 onClick={() => handleNavLinkClick('Videography')}
               >
-                VIDEOGRAPHY
+                Videography
               </Link>
             </li>
-            <li className="nav-item me-3">
+            <li className="nav-item me-2">
               <Link
                 className={`nav-link ${activeLink === 'Events' ? 'active' : ''}`}
                 to="/events"
                 onClick={() => handleNavLinkClick('Events')}
               >
-                EVENTS
+                Events
               </Link>
             </li>
-            <li className="nav-item me-3">
+            <li className="nav-item me-2">
               <Link
                 className={`nav-link ${activeLink === 'About' ? 'active' : ''}`}
                 to="/about"
                 onClick={() => handleNavLinkClick('About')}
               >
-                ABOUT
+                About
               </Link>
             </li>
-            <li className="nav-item me-3">
+            <li className="nav-item me-35">
               <Link
                 className={`nav-link ${activeLink === 'Contact' ? 'active' : ''}`}
                 to="/contact"
                 onClick={() => handleNavLinkClick('Contact')}
               >
-                CONTACT
+                Contact
               </Link>
             </li>
           </ul>
