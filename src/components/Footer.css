@@ -6,6 +6,7 @@
     grid-template-columns: 2fr 1fr 1fr;
     grid-gap: 1rem;
     min-width: 100vw;
+    min-height: 50%;
 }
 
 .footer-section {
