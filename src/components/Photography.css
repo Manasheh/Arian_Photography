@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     background-color: black;
     padding-bottom: 2rem;
+    border-top: 1px solid white;
 }
 
 .img-wrapper {
@@ -15,13 +16,13 @@
     height: 180px;
 }
 
-.hr {
+/* .hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, #ccc, #333, #ccc, #333, #ccc, #333);
     margin: 0;
     max-width: 80vw;
-}
+} */
 .eye-icon {
     position: absolute;
     top: 50%;

@@ -5,7 +5,7 @@ import './Events.css';
 
 function Events() {
   return (
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: '10px' }} className="card-container">
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: '20px' }} className="card-container pb-4">
         <h3 style={{ width: '100%', textAlign: 'center' }} className='p-2'>Weddings</h3>
         <Link to='/wed1'>
         <div className="card" style={{ width: '15rem', position: 'relative' }}>
@@ -43,7 +43,6 @@ function Events() {
           <p className='weds p-3'>Yona weds Slomit</p>
         </div>
         </Link>
-        <div></div>
       </div>
   );
 }

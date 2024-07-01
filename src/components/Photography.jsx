@@ -72,7 +72,6 @@ function Photography() {
 
     return (
         <>
-            <div className="hr"></div>
             <div className='image-container'>
                 <h3 style={{ color: 'white', letterSpacing: '0.5px', fontWeight: 'inherit' }}>PHOTOGRAPHY SHOWCASE</h3>
                 {images.map((image) => (

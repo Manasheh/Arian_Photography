@@ -9,7 +9,10 @@
     padding-bottom: 1rem;
 
   }
-  
+  .video-container {
+    width: 100vw;
+    /* min-height: 90vh; */
+  }
   .video-container video {
     width: 100%;
     height: calc(100vh - 66px); /* Default height for larger screens */

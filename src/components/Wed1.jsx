@@ -24,7 +24,8 @@ import img19 from '../../public/wed1/images/19.jpg';
 import img20 from '../../public/wed1/images/20.jpg';
 // import video from '../../public/web1/video1.mp4';
 import video from '../../public/video/wed1.mp4';
-import './Wed1_Video.css'
+import './Wed_Video.css'
+import './Web1.css'
 
 
 
@@ -76,7 +77,7 @@ function Web1() {
 
     return (
         <div className='web1-container'>
-            <div className="hr"></div>
+            {/* <div className="hr"></div> */}
             <div className='p-3 bg-black text-light'>
             <h3 style={{ color: 'white', letterSpacing: '0.5px', fontWeight: 'inherit'}} className='text-center'>Thang Weds Kim</h3>
               <p>

@@ -3,18 +3,18 @@ import './Contact.css'; // Ensure this file contains your hover styles
 
 function Contact() {
   return (
-    <div className="pb-3 bg-black">
-      <div className="row bg-dark p-3">
+    <div className="pb-3 bg-black contact-container">
+      <div className="row bg-black p-3">
         <div className="col-lg-8 mx-auto">
           <div className="mt-2 mx-auto p-1">
-            <div className="card-body bg-dark">
+            <div className="card-body bg-black">
               <form 
                 id="contact-form" 
                 role="form" 
                 action="https://formspree.io/f/xvgpoodn" 
                 method="POST"
               >
-                <div className="container">
+                <div className="">
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">

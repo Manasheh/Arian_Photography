@@ -17,11 +17,13 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-black pe-2">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-black pe-3">
       <div className="container-fluid px-0">
         <Link className="navbar-brand ps-3 text-white" to="/" onClick={() => handleNavLinkClick('Photography')}>
           <div className='logo'>
-            <img src={ArianLogo} className='img' alt="" />
+            {/* <img src={ArianLogo} className='img' alt="" /> */}
+            {/* <span>Arian</span> */}
+            <em>Arian</em>
           </div>
         </Link>
         <button

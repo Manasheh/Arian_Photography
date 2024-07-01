@@ -4,11 +4,14 @@ function Footer() {
   return (
     <>
     {/* <hr className='hr'/> */}
-    <div className='hr'></div>
+    {/* <div className='hr'></div> */}
     <div className='footer container px-4'>
         <div className="footer-section footer-arian">
         <p className='title'>Arian Photography</p>
-        <p>Explore the artistry and beauty captured through Arian's lens. From stunning landscapes to intimate portraits, discover a visual journey that transcends time.</p>
+        <p>Explore the artistry and beauty captured through Arian's lens. From stunning landscapes to intimate portraits, discover a visual journey that transcends time.
+        
+        </p>
+        <h5>(This website is under construction. Please visit again later. Thank you!)</h5>
         </div>
 
         <div className="footer-section">

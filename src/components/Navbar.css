@@ -1,31 +1,32 @@
 .navbar {
   background-color: black; /* Set background color to black */
-  color: white;
-  /* position: fixed; */
   top: 0;
   width: 100%;
 }
+
 .logo {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  /* margin-right: 10px; */
 }
+
 .logo .img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+}
 
+.nav-link {
+  color: white !important; /* Set text color to white */
+  transition: all 0.3s ease; /* Add smooth transition */
 }
 
 .nav-link.active,
 .nav-link:hover {
-  color: #fff !important;
-  background-color: #007bff !important;
-  border-color: #007bff !important;
-  border-radius: 1px;
-  transition: all 0.3s ease; /* Add smooth transition */
+  color: black !important; /* Set text color to black */
+  background-color: #fff !important; /* Background color change */
+  border-radius: 2px;
 }
 
 .navbar-brand {
@@ -34,11 +35,6 @@
 
 .navbar-toggler-icon {
   color: white !important; /* Set text color to white */
-}
-
-.navbar-nav .nav-link {
-  color: white !important; /* Set text color to white */
-  transition: all 0.3s ease; /* Add smooth transition */
 }
 
 @media (max-width: 786px) {

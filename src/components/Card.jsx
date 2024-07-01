@@ -9,8 +9,6 @@ function TestimonialCarousel() {
  
 
   return (
-    <>
-      <div className="hr"></div>
       <section className="gradient-custom bg-black">
         <div className="container">
           <div className="text-center">
@@ -102,7 +100,6 @@ function TestimonialCarousel() {
           </p>
         </div>
       </section>
-    </>
   );
 }
 

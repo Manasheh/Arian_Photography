@@ -16,6 +16,9 @@ input, select, textarea {
     font-size: 0.8rem !important;
 }
 
+.contact-container {
+    border-top: 1px solid white;
+}
 
 .submit-button:hover {
     background-color: #ff5050 !important;
@@ -35,7 +38,3 @@ input, select, textarea {
 
 }
 
-/* .card{
-	margin-left: 10px;
-	margin-right: 10px;
-} */

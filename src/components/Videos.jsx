@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import video from '../../public/video/video1.mp4';
-import './Video.css';
+import './Videos.css';
 
 function Videos() {
   return (
