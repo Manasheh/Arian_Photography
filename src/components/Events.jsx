@@ -5,45 +5,45 @@ import './Events.css';
 
 function Events() {
   return (
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: '10px' }} className="p-2 card-container">
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: '10px' }} className="card-container">
         <h3 style={{ width: '100%', textAlign: 'center' }} className='p-2'>Weddings</h3>
         <Link to='/wed1'>
         <div className="card" style={{ width: '15rem', position: 'relative' }}>
           <img className="card-img-top" src={img1} alt="Card image cap" style={{ height: '10rem', objectFit: 'cover' }} />
-          <p className='weds p-2'>Thang weds Kim</p>
+          <p className='weds p-3'>Thang weds Kim</p>
         </div>
         </Link>
         <Link to='/wed2'>
         <div className="card" style={{ width: '15rem', position: 'relative' }}>
           <img className="card-img-top" src={img1} alt="Card image cap" style={{ height: '10rem', objectFit: 'cover' }} />
-          <p className='weds p-2'>Ben weds Ruth</p>
+          <p className='weds p-3'>Ben weds Ruth</p>
         </div>
         </Link>
         <Link to='/wed3'>
         <div className="card" style={{ width: '15rem', position: 'relative' }}>
           <img className="card-img-top" src={img1} alt="Card image cap" style={{ height: '10rem', objectFit: 'cover' }} />
-          <p className='weds p-2'>Simeon weds Elinor</p>
+          <p className='weds p-3'>Simeon weds Elinor</p>
         </div>
         </Link>
         <Link to='/wed4'>
         <div className="card" style={{ width: '15rem', position: 'relative' }}>
           <img className="card-img-top" src={img1} alt="Card image cap" style={{ height: '10rem', objectFit: 'cover' }} />
-          <p className='weds p-2'>Avihu weds D'vora</p>
+          <p className='weds p-3'>Avihu weds D'vora</p>
         </div>
         </Link>
         <Link to='/wed5'>
         <div className="card" style={{ width: '15rem', position: 'relative' }}>
           <img className="card-img-top" src={img1} alt="Card image cap" style={{ height: '10rem', objectFit: 'cover' }} />
-          <p className='weds p-2'>Elkana weds Leah</p>
+          <p className='weds p-3'>Elkana weds Leah</p>
         </div>
         </Link>
         <Link to='/wed6'>
         <div className="card" style={{ width: '15rem', position: 'relative' }}>
           <img className="card-img-top" src={img1} alt="Card image cap" style={{ height: '10rem', objectFit: 'cover' }} />
-          <p className='weds p-2'>Yona weds Slomit</p>
+          <p className='weds p-3'>Yona weds Slomit</p>
         </div>
         </Link>
-        
+        <div></div>
       </div>
   );
 }
