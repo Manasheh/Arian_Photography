@@ -1,0 +1,47 @@
+.card-container {
+    border-top: 1px solid white;
+    position: relative;
+    background-color: black;
+    color: white;
+  }
+  
+  .weds {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: for better readability */
+    padding: 5px; /* Optional: for better readability */
+    border-radius: 5px; /* Optional: for better readability */
+    font-size: 0.7rem;
+  }
+
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  /* Responsive design for small screens */
+  @media only screen and (max-width: 500px) {
+    .card-container {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 0 !important;
+        
+    }
+    .card {
+        /* display: block !important; */
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+  }
+  

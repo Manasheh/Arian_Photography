@@ -17,7 +17,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-black">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-black pe-2">
       <div className="container-fluid px-0">
         <Link className="navbar-brand ps-3 text-white" to="/" onClick={() => handleNavLinkClick('Photography')}>
           <div className='logo'>
