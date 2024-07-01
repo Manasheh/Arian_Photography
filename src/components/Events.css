@@ -19,6 +19,7 @@
 
   .card {
     transition: transform 0.3s ease;
+    
   }
   
   .card:hover {
@@ -38,7 +39,7 @@
     }
     .card {
         /* display: block !important; */
-        width: 100% !important;
+        /* width: 400px !important; */
         height: auto !important;
         padding: 0 !important;
         margin: 0 !important;
